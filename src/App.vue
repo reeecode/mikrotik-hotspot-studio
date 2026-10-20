@@ -179,10 +179,10 @@ async function downloadZip() {
         <img src="/logo.png" alt="Logo" class="w-9 h-9 md:w-10 md:h-10 rounded-xl object-cover shadow-lg shadow-emerald-500/20 border border-emerald-500/30 shrink-0" />
         <div>
           <h1 class="font-bold text-base md:text-lg leading-tight flex items-center gap-1.5 md:gap-2">
-            <span>Hotspot Studio</span>
+            <span>LoginForge</span>
             <span class="text-[9px] md:text-[10px] font-semibold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-1.5 md:px-2 py-0.5 rounded-full uppercase">Free</span>
           </h1>
-          <p class="text-[11px] md:text-xs text-slate-400 line-clamp-1">Generator Template MikroTik 100% Client-Side</p>
+          <p class="text-[11px] md:text-xs text-slate-400 line-clamp-1">Generator Template MikroTik Hotspot 100% Client-Side</p>
         </div>
       </div>
 

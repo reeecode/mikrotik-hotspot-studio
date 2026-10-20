@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://loginforge.reee.my.id/sitemap.xml

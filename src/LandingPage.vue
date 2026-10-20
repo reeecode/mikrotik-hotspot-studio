@@ -76,7 +76,7 @@ const steps = [
       <div class="flex items-center gap-3">
         <img src="/logo.png" alt="Logo" class="w-10 h-10 rounded-xl object-cover shadow-lg shadow-emerald-500/20 border border-emerald-500/30" />
         <div>
-          <span class="font-extrabold text-lg tracking-tight bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">Hotspot Studio</span>
+          <span class="font-extrabold text-lg tracking-tight bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">LoginForge</span>
           <span class="ml-2 text-[10px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2 py-0.5 rounded-full">v1.0 Free</span>
         </div>
       </div>
@@ -218,7 +218,7 @@ const steps = [
     <footer class="mt-auto border-t border-slate-900 py-8 px-4 md:px-8 text-center text-xs text-slate-500">
       <div class="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <div>
-          © {{ new Date().getFullYear() }} <span class="text-slate-400 font-semibold">MikroTik Hotspot Studio</span> • Dibuat untuk Komunitas Penggiat Jaringan Indonesia.
+          © {{ new Date().getFullYear() }} <span class="text-slate-400 font-semibold">LoginForge</span> • Generator Template MikroTik Hotspot No-Code Indonesia.
         </div>
         <div class="flex items-center gap-4">
           <button @click="emit('start-editor')" class="hover:text-slate-300 transition cursor-pointer">Buka Editor</button>
