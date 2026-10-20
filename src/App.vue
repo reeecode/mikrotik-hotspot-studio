@@ -91,8 +91,8 @@ function handleBgUpload(event) {
 }
 
 const colorPresets = [
+  { name: 'Neon Emerald (Brand)', primary: '#10b981', secondary: '#059669', bg: '#022c22', dark: true },
   { name: 'Cyber Blue', primary: '#2563eb', secondary: '#1d4ed8', bg: '#0f172a', dark: true },
-  { name: 'Emerald Green', primary: '#10b981', secondary: '#047857', bg: '#064e3b', dark: true },
   { name: 'Warm Amber', primary: '#f59e0b', secondary: '#b45309', bg: '#18181b', dark: true },
   { name: 'Purple Neon', primary: '#8b5cf6', secondary: '#6d28d2', bg: '#0f172a', dark: true },
   { name: 'Clean Light', primary: '#0284c7', secondary: '#0369a1', bg: '#f8fafc', dark: false },
@@ -176,9 +176,7 @@ async function downloadZip() {
           <span class="hidden sm:inline">Beranda</span>
         </button>
 
-        <div class="w-9 h-9 md:w-10 md:h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center shadow-lg shadow-blue-500/20 shrink-0">
-          <Wifi class="w-5 h-5 text-white" />
-        </div>
+        <img src="/logo.png" alt="Logo" class="w-9 h-9 md:w-10 md:h-10 rounded-xl object-cover shadow-lg shadow-emerald-500/20 border border-emerald-500/30 shrink-0" />
         <div>
           <h1 class="font-bold text-base md:text-lg leading-tight flex items-center gap-1.5 md:gap-2">
             <span>Hotspot Studio</span>
